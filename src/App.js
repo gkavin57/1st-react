@@ -19,7 +19,7 @@ function User({name,pic}) {
   return (
     <section>
       <img src={pic} alt="ll" className="aa"></img>
-      <h1 className="abc"> hello, {name} ❤💖</h1>
+      <h1 className="abc"> hello, 143 {name} ❤💖</h1>
     </section > 
     
   )
