@@ -1,19 +1,46 @@
-.App {
-  text-align: center;
-
-
+.movie-poster {
+  height: 640px;
+  width: 100%;
+  /* zoom  in */
+  object-fit: cover;
 }
 
-.abc {
-
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.movie-name {
+  font-size: 24px;
+  margin: 0;
 }
 
-.aa {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  background-color: aqua;
+.movie-specs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.movie-container {
+  
+  width: 340px;
+}
 
+/* RAM */
+.movie-list {
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1rem;
+  justify-items: center; 
+    
+     
+    /* display: flex; 
+    flex-wrap: wrap; 
+  rahav website
+    justify-content: space-around;
+    */
+
+} 
+ 
+.add-movie-form{ 
+  display: flex; 
+  flex-direction: column; 
+  max-width: 300px; 
+  gap: 0.8rem; 
+  margin: 1rem auto;
 }
